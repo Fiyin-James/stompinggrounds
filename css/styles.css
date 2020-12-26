@@ -1,0 +1,11 @@
+.footer-link {
+    text-decoration: none;
+    color: darkgrey;
+    transition: .3s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
