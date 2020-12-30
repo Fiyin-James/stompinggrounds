@@ -1,0 +1,24 @@
+.footer-link {
+    text-decoration: none;
+    color: darkgrey;
+    transition: .3s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.0rem;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(imgs/coffe.jpg);
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
