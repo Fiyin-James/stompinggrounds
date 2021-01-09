@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
     <!-- Required meta tags always come first -->
@@ -21,7 +21,7 @@
     <title>Stomping Grounds Cafe</title>
 </head>
 
-<body >
+<body>
     <nav class="navbar navbar-expand-md navbar-dark bg-danger main-nav">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -64,40 +64,40 @@
                 <p class="text-center">Click from the options down below to view our menu</p>
             </div>
         </div>
-        <div class="row  mt-5  " >
+        <div class="row  mt-5  ">
             <div class="col h-75">
                 <div class="card-deck">
                     <div class="card">
-                      <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid" src="imgs\counterculture-coffee.png" alt="Coffee image"></a>
-                      <div class="card-body">
-                        <h5 class="card-title">Cafe</h5>
-                        
-                      </div>
-                    </div>
-                    <div class="card">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid" src="imgs\wine.png" alt="Wine image"></a>
-                      <div class="card-body">
-                        <h5 class="card-title">Bar</h5>
-                       
-                      </div>
-                    </div>
-                    <div class="card">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid " src="imgs\eggs-bennedict.png" alt="Breakfast image"></a>
-                      <div class="card-body">
-                        <h5 class="card-title">Breakfast</h5>
-                        
-                      </div>
-                    </div>
-                    <div class="card">
-                        <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid" src="imgs\fancyfood.png" alt="Dinner image"></a>
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"><img class="card-img-top img-fluid" src="imgs\counterculture-coffee.png" alt="Coffee image"></a>
                         <div class="card-body">
-                          <h5 class="card-title">Lunch & Dinner</h5>
-                          
+                            <h5 class="card-title">Cafe</h5>
+
                         </div>
-                      </div>
-                  </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#wineModal"><img class="card-img-top img-fluid" src="imgs\wine.png" alt="Wine image"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Bar</h5>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#breakfastModal"><img class="card-img-top img-fluid " src="imgs\eggs-bennedict.png" alt="Breakfast image"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Breakfast</h5>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <a href="#" data-toggle="modal" data-target="#dinnerModal"><img class="card-img-top img-fluid" src="imgs\fancyfood.png" alt="Dinner image"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Lunch & Dinner</h5>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-        
+
         </div>
         <div class="row mt-5">
             <div class="col">
@@ -108,26 +108,89 @@
 
     </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <!-- CAFE Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
     </div>
-  </div>
+
+    <!-- WINE Modal -->
+    <div class="modal fade" id="wineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="exampleModalLabel">Bar Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BREAKFAST Modal -->
+    <div class="modal fade" id="breakfastModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="exampleModalLabel">Breakfast Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- DINNER Modal -->
+    <div class="modal fade" id="dinnerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title" id="exampleModalLabel">Dinner Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <footer class="site-footer text-white bg-dark ">
