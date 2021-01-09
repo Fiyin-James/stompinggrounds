@@ -112,81 +112,566 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content ">
-                <div class="modal-header ">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <div class="modal-header text-center">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Cafe Menu</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
                 </div>
-                <div class="modal-body">
-                    ...
+
+                <p class="top-menu-hours text-center">
+                    <small>Available 8am - 6:30pm</small></p>
+                <div class="modal-body" data-toggle="collapse" href="#collapseCoffee">
+                    <p class="menu-section py-2">
+                        drip coffee
+                        <!-- <span class="glyphicon glyphicon-chevron-down "></span> -->
+                    </p>
+                    <!-- FIRST ROW - CAFE MENU -->
+                    <div class="row collapse" id="collapseCoffee">
+                        <div class=" col-lg-3 menu-card card  ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Daily Single Origin</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Rotating single selection</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Pour-Over</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Rotating single selection</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">French Roast</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">dark blend - dark chocolate, smokey, full-bodied</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Decaffinated</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Swiss Water Process - molasses, cocoa, smooth</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <!-- END OF MODAL ROW -->
+
+                <div class="modal-body" data-toggle="collapse" href="#collapseEspresso">
+                    <p class="menu-section py-2">
+                        espresso
+                    </p>
+                    <div class="row collapse" id="collapseEspresso">
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Espresso</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">single</p>
+                                        <p class="menu-description ">double</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                        <p class="menu-price ">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Americano</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">single</p>
+                                        <p class="menu-description ">double</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                        <p class="menu-price ">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Cappucino</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">small</p>
+                                        <p class="menu-description ">medium</p>
+                                        <p class="menu-description ">large</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.5</p>
+                                        <p class="menu-price ">4</p>
+                                        <p class="menu-price ">4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Cafe Latte</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">small</p>
+                                        <p class="menu-description ">medium</p>
+                                        <p class="menu-description ">large</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.5</p>
+                                        <p class="menu-price ">4</p>
+                                        <p class="menu-price ">4.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Cafe Mocha</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">small</p>
+                                        <p class="menu-description ">medium</p>
+                                        <p class="menu-description ">large</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">4</p>
+                                        <p class="menu-price ">4.5</p>
+                                        <p class="menu-price ">5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- END OF MODAL ROW -->
+
+                <div class="modal-body" data-toggle="collapse" href="#collapseTea">
+                    <p class="menu-section py-2">
+                        loose leaf tea
+                    </p>
+                    <div class="row collapse" id="collapseTea">
+                        <div class="col-12">
+                            <h5 class="tea-selection">green tea</h5>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Jade Cloud</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Hubei, China • high mountain, spring harvest green tea leaves</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Green Mint</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">green tea & Pacific Northwest peppermint</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Jasmine Pearl</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Fujian, China • hand-rolled green tea leaves, scented with jasmine</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">4</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h5 class="tea-selection">white tea</h5>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Silver Needle</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Fujian, China • reserve white down-covered buds</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.75</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Wild Rose Melange</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">oses, jasmine, green & white tea, peppermint, lavender</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.75</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h5 class="tea-selection">black tea</h5>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Ancient Golden Yunnan</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Yunnan, China • black tea leaves from ancient wild tea trees</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.25</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Earl Grey Supreme</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">special reserve black tea and natural bergamot oil</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.25</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Ancient Pu-erh Classic</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">fermented and aged black tea leaves</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Masala Chai</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">black tea, cinnamon, cardamom, ginger, black pepper, clove</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.75</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h5 class="tea-selection">oolong tea</h5>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Jade Oolong</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Nantou, Taiwan • leaves from Four Seasons Spring tea bushes</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.25</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Ruby Oolong</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Doi Mae Salong, Thailand slow-baked oolong tea</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.75</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Iron Goddess of Mercy</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">Nantou, Taiwan • hand-harvested special grade Tae Guan Yin</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.75</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12">
+                            <h5 class="tea-selection">herbal tea</h5>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Scarlett</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">currants, hibiscus, rosehips, rooibos, blueberries, orange peel, cranberries, blueberries, passion fruit, & mango flavor</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Chamomile Medley</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">chamomile buds, lemongrass, lemon verbena, spearmint</p>
+
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Tumeric Ginger</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">ginger root, turmeric root, licorice root, lemongrass, orange peel, lemon peel, essential orange, & lemon oils</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">White Genseng Detox</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">schizandra berries, white ginseng, burdock root, rosehips, peppermint, licorice root, dandelion root, raspberries</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3.25</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 menu-card card ">
+                            <div class="card-body ">
+                                <div class="row justify-content-center ">
+                                    <div class="col-12 ">
+                                        <h5 class="card-title menu-item text-center ">Patagonia Super Berry</h5>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <p class="menu-description ">blueberries, maqui berries, raspberries, red wine grape skin, hawthorn berries</p>
+                                    </div>
+                                    <div class="col-3 align-self-center ">
+                                        <p class="menu-price ">3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <!-- END OF MODAL ROW -->
+
+
             </div>
+            <!-- <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button>
+                    <button type="button " class="btn btn-primary ">Save changes</button>
+                </div> -->
         </div>
+    </div>
     </div>
 
     <!-- WINE Modal -->
-    <div class="modal fade" id="wineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade " id="wineModal " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-lg " role="document ">
             <div class="modal-content ">
                 <div class="modal-header ">
-                    <h5 class="modal-title" id="exampleModalLabel">Bar Menu</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+                    <h5 class="modal-title " id="exampleModalLabel ">Bar Menu</h5>
+                    <button type="button " class="close " data-dismiss="modal " aria-label="Close ">
+            <span aria-hidden="true ">&times;</span>
+                        </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body ">
                     ...
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button>
+                    <button type="button " class="btn btn-primary ">Save changes</button>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- BREAKFAST Modal -->
-    <div class="modal fade" id="breakfastModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade " id="breakfastModal " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-lg " role="document ">
             <div class="modal-content ">
                 <div class="modal-header ">
-                    <h5 class="modal-title" id="exampleModalLabel">Breakfast Menu</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+                    <h5 class="modal-title " id="exampleModalLabel ">Breakfast Menu</h5>
+                    <button type="button " class="close " data-dismiss="modal " aria-label="Close ">
+            <span aria-hidden="true ">&times;</span>
           </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body ">
                     ...
                 </div>
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <!-- <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button>
+                    <button type="button " class="btn btn-primary ">Save changes</button>
                 </div> -->
             </div>
         </div>
     </div>
 
     <!-- DINNER Modal -->
-    <div class="modal fade" id="dinnerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade " id="dinnerModal " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-lg " role="document ">
             <div class="modal-content ">
                 <div class="modal-header ">
-                    <h5 class="modal-title" id="exampleModalLabel">Dinner Menu</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+                    <h5 class="modal-title " id="exampleModalLabel ">Dinner Menu</h5>
+                    <button type="button " class="close " data-dismiss="modal " aria-label="Close ">
+            <span aria-hidden="true ">&times;</span>
           </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body ">
                     ...
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button>
+                    <button type="button " class="btn btn-primary ">Save changes</button>
                 </div>
             </div>
         </div>
