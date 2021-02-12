@@ -18,6 +18,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
+        "all": "0.0.0",
         "bootstrap": "^4.5.3",
         "bootstrap-social": "^5.1.1",
         "jquery": "^3.5.1",
